@@ -5,9 +5,17 @@ body {
   color: white;
 }
 
-nav {
+header {
   background-color: darkred;
   opacity: 0.8;
+
+  display: inline-block;
+
+  width: 100%;
+}
+
+nav {
+  float: right;
 }
 
 nav ul li {

@@ -2,15 +2,24 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  color: wheat;
+  color: white;
 }
 
 nav {
-  background-color: maroon;
-  opacity: 0.2;
+  background-color: darkred;
+  opacity: 0.8;
 }
 
 nav ul li {
   display: inline-block;
   margin-right: 1em;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: wheat;
+}
+
+#current {
+  color: grey;
 }

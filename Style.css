@@ -1,17 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html {
+  margin: 0px;
+}
 
 body {
+  background-color: black;
+
   font-family: 'Montserrat', sans-serif;
   color: white;
+
+  margin: 0px;
+  top: 0px;
 }
 
 header {
   background-color: darkred;
   opacity: 0.8;
 
-  display: inline-block;
+  float: left;
 
   width: 100%;
+
+  margin: 0px;
+  top: 0px;
 }
 
 nav {
@@ -26,6 +39,10 @@ nav ul li {
 nav ul li a{
   text-decoration: none;
   color: wheat;
+}
+
+#title {
+  font-family: 'Raleway', serif;
 }
 
 #current {
